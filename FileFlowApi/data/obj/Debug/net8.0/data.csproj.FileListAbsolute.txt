@@ -1,0 +1,54 @@
+C:\others instead of divide the file\FileFlowApi\data\bin\Debug\net8.0\data.deps.json
+C:\others instead of divide the file\FileFlowApi\data\bin\Debug\net8.0\data.runtimeconfig.json
+C:\others instead of divide the file\FileFlowApi\data\bin\Debug\net8.0\data.dll
+C:\others instead of divide the file\FileFlowApi\data\bin\Debug\net8.0\data.pdb
+C:\others instead of divide the file\FileFlowApi\data\bin\Debug\net8.0\core.dll
+C:\others instead of divide the file\FileFlowApi\data\bin\Debug\net8.0\core.pdb
+C:\others instead of divide the file\FileFlowApi\data\obj\Debug\net8.0\data.csproj.AssemblyReference.cache
+C:\others instead of divide the file\FileFlowApi\data\obj\Debug\net8.0\data.GeneratedMSBuildEditorConfig.editorconfig
+C:\others instead of divide the file\FileFlowApi\data\obj\Debug\net8.0\data.AssemblyInfoInputs.cache
+C:\others instead of divide the file\FileFlowApi\data\obj\Debug\net8.0\data.AssemblyInfo.cs
+C:\others instead of divide the file\FileFlowApi\data\obj\Debug\net8.0\data.csproj.CoreCompileInputs.cache
+C:\others instead of divide the file\FileFlowApi\data\obj\Debug\net8.0\data.sourcelink.json
+C:\others instead of divide the file\FileFlowApi\data\obj\Debug\net8.0\data.csproj.Up2Date
+C:\others instead of divide the file\FileFlowApi\data\obj\Debug\net8.0\data.dll
+C:\others instead of divide the file\FileFlowApi\data\obj\Debug\net8.0\refint\data.dll
+C:\others instead of divide the file\FileFlowApi\data\obj\Debug\net8.0\data.pdb
+C:\others instead of divide the file\FileFlowApi\data\obj\Debug\net8.0\data.genruntimeconfig.cache
+C:\others instead of divide the file\FileFlowApi\data\obj\Debug\net8.0\ref\data.dll
+C:\others_instead_of_divide_the_file\FileFlowApi\data\bin\Debug\net8.0\data.deps.json
+C:\others_instead_of_divide_the_file\FileFlowApi\data\bin\Debug\net8.0\data.runtimeconfig.json
+C:\others_instead_of_divide_the_file\FileFlowApi\data\bin\Debug\net8.0\data.dll
+C:\others_instead_of_divide_the_file\FileFlowApi\data\bin\Debug\net8.0\data.pdb
+C:\others_instead_of_divide_the_file\FileFlowApi\data\bin\Debug\net8.0\core.dll
+C:\others_instead_of_divide_the_file\FileFlowApi\data\bin\Debug\net8.0\core.pdb
+C:\others_instead_of_divide_the_file\FileFlowApi\data\obj\Debug\net8.0\data.csproj.AssemblyReference.cache
+C:\others_instead_of_divide_the_file\FileFlowApi\data\obj\Debug\net8.0\data.GeneratedMSBuildEditorConfig.editorconfig
+C:\others_instead_of_divide_the_file\FileFlowApi\data\obj\Debug\net8.0\data.AssemblyInfoInputs.cache
+C:\others_instead_of_divide_the_file\FileFlowApi\data\obj\Debug\net8.0\data.AssemblyInfo.cs
+C:\others_instead_of_divide_the_file\FileFlowApi\data\obj\Debug\net8.0\data.csproj.CoreCompileInputs.cache
+C:\others_instead_of_divide_the_file\FileFlowApi\data\obj\Debug\net8.0\data.sourcelink.json
+C:\others_instead_of_divide_the_file\FileFlowApi\data\obj\Debug\net8.0\data.csproj.Up2Date
+C:\others_instead_of_divide_the_file\FileFlowApi\data\obj\Debug\net8.0\data.dll
+C:\others_instead_of_divide_the_file\FileFlowApi\data\obj\Debug\net8.0\refint\data.dll
+C:\others_instead_of_divide_the_file\FileFlowApi\data\obj\Debug\net8.0\data.pdb
+C:\others_instead_of_divide_the_file\FileFlowApi\data\obj\Debug\net8.0\data.genruntimeconfig.cache
+C:\others_instead_of_divide_the_file\FileFlowApi\data\obj\Debug\net8.0\ref\data.dll
+C:\FileFlowProject\API\FileFlowApi\data\bin\Debug\net8.0\data.deps.json
+C:\FileFlowProject\API\FileFlowApi\data\bin\Debug\net8.0\data.runtimeconfig.json
+C:\FileFlowProject\API\FileFlowApi\data\bin\Debug\net8.0\data.dll
+C:\FileFlowProject\API\FileFlowApi\data\bin\Debug\net8.0\data.pdb
+C:\FileFlowProject\API\FileFlowApi\data\bin\Debug\net8.0\core.dll
+C:\FileFlowProject\API\FileFlowApi\data\bin\Debug\net8.0\core.pdb
+C:\FileFlowProject\API\FileFlowApi\data\obj\Debug\net8.0\data.csproj.AssemblyReference.cache
+C:\FileFlowProject\API\FileFlowApi\data\obj\Debug\net8.0\data.GeneratedMSBuildEditorConfig.editorconfig
+C:\FileFlowProject\API\FileFlowApi\data\obj\Debug\net8.0\data.AssemblyInfoInputs.cache
+C:\FileFlowProject\API\FileFlowApi\data\obj\Debug\net8.0\data.AssemblyInfo.cs
+C:\FileFlowProject\API\FileFlowApi\data\obj\Debug\net8.0\data.csproj.CoreCompileInputs.cache
+C:\FileFlowProject\API\FileFlowApi\data\obj\Debug\net8.0\data.sourcelink.json
+C:\FileFlowProject\API\FileFlowApi\data\obj\Debug\net8.0\data.csproj.Up2Date
+C:\FileFlowProject\API\FileFlowApi\data\obj\Debug\net8.0\data.dll
+C:\FileFlowProject\API\FileFlowApi\data\obj\Debug\net8.0\refint\data.dll
+C:\FileFlowProject\API\FileFlowApi\data\obj\Debug\net8.0\data.pdb
+C:\FileFlowProject\API\FileFlowApi\data\obj\Debug\net8.0\data.genruntimeconfig.cache
+C:\FileFlowProject\API\FileFlowApi\data\obj\Debug\net8.0\ref\data.dll

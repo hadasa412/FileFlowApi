@@ -1,0 +1,30 @@
+# Build results
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Rider
+.idea/
+*.sln.iml
+
+# Logs
+*.log
+
+# User-specific files
+*.swp
+
+# Configuration files with sensitive data
+appsettings.json
+appsettings.Development.json
+appsettings.*.json
+
+# Publish output
+publish/
+
+# Temporary files
+*.tmp
+*.bak

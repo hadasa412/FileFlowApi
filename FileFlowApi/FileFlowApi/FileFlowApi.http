@@ -1,0 +1,6 @@
+@FILEFLOWAPI_HostAddress = http://localhost:5164
+
+GET {{FILEFLOWAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
