@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\FileFlowProject\\API\\FileFlowApi\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AF0E3610-E7CD-4698-86EA-22898DC1B781}|FILEFLOWAPI\\FILEFLOWAPI.csproj|c:\\fileflowproject\\api\\fileflowapi\\fileflowapi\\fileflowapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AF0E3610-E7CD-4698-86EA-22898DC1B781}|FILEFLOWAPI\\FILEFLOWAPI.csproj|solutionrelative:fileflowapi\\fileflowapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FILEFLOWAPI",
+              "DocumentMoniker": "C:\\FileFlowProject\\API\\FileFlowApi\\FILEFLOWAPI\\FILEFLOWAPI.csproj",
+              "RelativeDocumentMoniker": "FILEFLOWAPI\\FILEFLOWAPI.csproj",
+              "ToolTip": "C:\\FileFlowProject\\API\\FileFlowApi\\FILEFLOWAPI\\FILEFLOWAPI.csproj",
+              "RelativeToolTip": "FILEFLOWAPI\\FILEFLOWAPI.csproj",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAwwCwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-28T20:29:44.451Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

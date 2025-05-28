@@ -5,11 +5,11 @@ VisualStudioVersion = 17.10.35201.131
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FILEFLOWAPI", "FILEFLOWAPI\FILEFLOWAPI.csproj", "{AF0E3610-E7CD-4698-86EA-22898DC1B781}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "core", "core\core.csproj", "{20417571-B3A0-4D57-AEE2-05D399725544}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "core", "..\core\core.csproj", "{20417571-B3A0-4D57-AEE2-05D399725544}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "data", "data\data.csproj", "{D519DC32-D87A-49AD-96E8-8F4B8D6BB0FC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "data", "..\data\data.csproj", "{D519DC32-D87A-49AD-96E8-8F4B8D6BB0FC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "service", "service\service.csproj", "{BE2588CF-8529-4048-A818-9669BE59671F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "service", "..\service\service.csproj", "{BE2588CF-8529-4048-A818-9669BE59671F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
