@@ -9,10 +9,10 @@ FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
 # העתקת קבצי csproj מהפרויקטים
-COPY ["FILEFLOWAPI/FILEFLOWAPI.csproj", "FILEFLOWAPI/"]
 COPY ["data/data.csproj", "data/"]
 COPY ["service/service.csproj", "service/"]
 COPY ["core/core.csproj", "core/"]
+COPY ["FILEFLOWAPI/FILEFLOWAPI.csproj", "FILEFLOWAPI/"]
 
 # שחזור תלויות
 RUN dotnet restore "FILEFLOWAPI/FILEFLOWAPI.csproj"
