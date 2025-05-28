@@ -1,14 +1,13 @@
 # שלב בסיס להרצה
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
 WORKDIR /app
-ENV ASPNETCORE_URLS=http://+:$PORT
-EXPOSE $PORT
+EXPOSE 80
 
-# שלב בנייה
+# שלב הבנייה
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
-# שלב העתקת קבצי csproj בלבד
+# העתקת קבצי csproj בלבד
 COPY ["FileFlowApi/FileFlowApi.csproj", "FileFlowApi/"]
 COPY ["service/service.csproj", "service/"]
 COPY ["core/core.csproj", "core/"]
@@ -16,18 +15,18 @@ COPY ["core/core.csproj", "core/"]
 # שחזור תלויות
 RUN dotnet restore "FileFlowApi/FileFlowApi.csproj"
 
-# העתקת שאר קבצי הפרויקט
+# העתקת כל הקבצים
 COPY . .
 
 # בנייה
 WORKDIR "/src/FileFlowApi"
 RUN dotnet build "FileFlowApi.csproj" -c Release -o /app/build
 
-# שלב פרסום
+# שלב הפרסום
 FROM build AS publish
 RUN dotnet publish "FileFlowApi.csproj" -c Release -o /app/publish /p:UseAppHost=false
 
-# שלב סופי להרצה
+# שלב הסופי להרצה
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
