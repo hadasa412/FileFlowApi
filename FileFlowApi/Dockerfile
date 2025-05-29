@@ -21,5 +21,7 @@ RUN dotnet publish "FILEFLOWAPI.csproj" -c Release -o /app/publish /p:UseAppHost
 # שלב סופי – הרצה
 FROM base AS final
 WORKDIR /app
+ENV ASPNETCORE_ENVIRONMENT=Production
+
 COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "FILEFLOWAPI.dll"]
