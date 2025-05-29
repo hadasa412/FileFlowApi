@@ -15,6 +15,9 @@ COPY ["core/core.csproj", "core/"]
 COPY ["FILEFLOWAPI/FILEFLOWAPI.csproj", "FILEFLOWAPI/"]
 
 # שחזור תלויות
+RUN dotnet restore "core/core.csproj"
+RUN dotnet restore "data/data.csproj"
+RUN dotnet restore "service/service.csproj"
 RUN dotnet restore "FILEFLOWAPI/FILEFLOWAPI.csproj"
 
 # העתקת שאר הקבצים
