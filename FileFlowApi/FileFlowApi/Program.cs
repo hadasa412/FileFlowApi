@@ -26,6 +26,8 @@ using service.services;
 DotNetEnv.Env.Load(); // יטען את קובץ .env
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Configuration.AddEnvironmentVariables();
+
 
 // הוספת CORS
 builder.Services.AddCors(options =>
