@@ -24,7 +24,7 @@ RUN dotnet restore "FileFlowApi/FILEFLOWAPI.csproj"
 COPY . .
 
 # הגדרת תיקייה לבנייה
-WORKDIR "/src/FILEFLOWAPI"
+WORKDIR "/src/FileFlowApi"
 RUN dotnet build "FILEFLOWAPI.csproj" -c Release -o /app/build
 
 # שלב פרסום
