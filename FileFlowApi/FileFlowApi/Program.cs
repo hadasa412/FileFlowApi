@@ -23,7 +23,6 @@ using System.Security.Claims;
 using service.services;
 
 
-DotNetEnv.Env.Load(); // יטען את קובץ .env
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Configuration.AddEnvironmentVariables();
