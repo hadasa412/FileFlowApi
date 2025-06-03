@@ -33,7 +33,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowReactApp", policy =>
     {
-        policy.WithOrigins("http://localhost:4200", "http://localhost:5173", "http://localhost:5175")  // הכתובת של React
+        policy.WithOrigins("http://localhost:4200", "http://localhost:5173", "http://localhost:5175", "https://fileflow-react.onrender.com")  // הכתובת של React
               .AllowAnyMethod()  // מאפשר כל שיטה (GET, POST וכו')
               .AllowAnyHeader()  // מאפשר כל כותרת
               .AllowCredentials(); // אם נדרש תיעוד נכנס (cookies, headers, וכו')
@@ -165,6 +165,7 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
+app.MapGet("/", () => Results.Ok("FileFlow API is running"));
 
 // הפעלת השרת
 app.Run();
