@@ -28,11 +28,12 @@ namespace FileFlowApi.SERVICES
                 new Claim(ClaimTypes.Email, user.Email)
             };
             
-            var secretKey = Environment.GetEnvironmentVariable("JWT_KEY");
-            if (secretKey == null)
+            var secretKey = _configuration["Jwt:Key"] ?? Environment.GetEnvironmentVariable("JWT_KEY");
+              if (string.IsNullOrEmpty(secretKey) || secretKey.Length < 32)
             {
-                Console.WriteLine("JWT Key is null!");
+              throw new Exception("JWT Key is too short or missing. It must be at least 32 characters.");
             }
+
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secretKey));
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
