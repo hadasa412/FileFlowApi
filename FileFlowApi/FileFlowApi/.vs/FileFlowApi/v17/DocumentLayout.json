@@ -1,17 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\FileFlowProject\\API\\FileFlowApi\\FileFlowApi\\",
+  "WorkspaceRootPath": "C:\\FileFlowProject\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05DE\u05E2\u05D8 \u05E2\u05D5\u05D1\u05D3 \u05DC\u05D2\u05DE\u05E8\u05D9 API\\FileFlowApi\\FileFlowApi\\FileFlowApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AF0E3610-E7CD-4698-86EA-22898DC1B781}|FILEFLOWAPI.csproj|c:\\fileflowproject\\api\\fileflowapi\\fileflowapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AF0E3610-E7CD-4698-86EA-22898DC1B781}|FILEFLOWAPI.csproj|c:\\fileflowproject\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05DE\u05E2\u05D8 \u05E2\u05D5\u05D1\u05D3 \u05DC\u05D2\u05DE\u05E8\u05D9 api\\fileflowapi\\fileflowapi\\fileflowapi\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF0E3610-E7CD-4698-86EA-22898DC1B781}|FILEFLOWAPI.csproj|solutionrelative:controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF0E3610-E7CD-4698-86EA-22898DC1B781}|FILEFLOWAPI.csproj|c:\\fileflowproject\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05DE\u05E2\u05D8 \u05E2\u05D5\u05D1\u05D3 \u05DC\u05D2\u05DE\u05E8\u05D9 api\\fileflowapi\\fileflowapi\\fileflowapi\\controllers\\documentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF0E3610-E7CD-4698-86EA-22898DC1B781}|FILEFLOWAPI.csproj|solutionrelative:controllers\\documentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2588CF-8529-4048-A818-9669BE59671F}|..\\service\\service.csproj|c:\\fileflowproject\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05DE\u05E2\u05D8 \u05E2\u05D5\u05D1\u05D3 \u05DC\u05D2\u05DE\u05E8\u05D9 api\\fileflowapi\\fileflowapi\\service\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20417571-B3A0-4D57-AEE2-05D399725544}|..\\core\\core.csproj|c:\\fileflowproject\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05DE\u05E2\u05D8 \u05E2\u05D5\u05D1\u05D3 \u05DC\u05D2\u05DE\u05E8\u05D9 api\\fileflowapi\\fileflowapi\\core\\iservices\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2588CF-8529-4048-A818-9669BE59671F}|..\\service\\service.csproj|c:\\fileflowproject\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05DE\u05E2\u05D8 \u05E2\u05D5\u05D1\u05D3 \u05DC\u05D2\u05DE\u05E8\u05D9 api\\fileflowapi\\fileflowapi\\service\\services\\documentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF0E3610-E7CD-4698-86EA-22898DC1B781}|FILEFLOWAPI.csproj|c:\\fileflowproject\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05DE\u05E2\u05D8 \u05E2\u05D5\u05D1\u05D3 \u05DC\u05D2\u05DE\u05E8\u05D9 api\\fileflowapi\\fileflowapi\\fileflowapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF0E3610-E7CD-4698-86EA-22898DC1B781}|FILEFLOWAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF0E3610-E7CD-4698-86EA-22898DC1B781}|FILEFLOWAPI.csproj|c:\\fileflowproject\\api\\fileflowapi\\fileflowapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{AF0E3610-E7CD-4698-86EA-22898DC1B781}|FILEFLOWAPI.csproj|c:\\fileflowproject\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05DE\u05E2\u05D8 \u05E2\u05D5\u05D1\u05D3 \u05DC\u05D2\u05DE\u05E8\u05D9 api\\fileflowapi\\fileflowapi\\fileflowapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{AF0E3610-E7CD-4698-86EA-22898DC1B781}|FILEFLOWAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF0E3610-E7CD-4698-86EA-22898DC1B781}|FILEFLOWAPI.csproj|c:\\fileflowproject\\api\\fileflowapi\\fileflowapi\\fileflowapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{AF0E3610-E7CD-4698-86EA-22898DC1B781}|FILEFLOWAPI.csproj|c:\\fileflowproject\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05DE\u05E2\u05D8 \u05E2\u05D5\u05D1\u05D3 \u05DC\u05D2\u05DE\u05E8\u05D9 api\\fileflowapi\\fileflowapi\\fileflowapi\\fileflowapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{AF0E3610-E7CD-4698-86EA-22898DC1B781}|FILEFLOWAPI.csproj|solutionrelative:fileflowapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
@@ -22,41 +39,105 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\FileFlowProject\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05DE\u05E2\u05D8 \u05E2\u05D5\u05D1\u05D3 \u05DC\u05D2\u05DE\u05E8\u05D9 API\\FileFlowApi\\FileFlowApi\\service\\services\\TokenService.cs",
+              "RelativeDocumentMoniker": "..\\service\\services\\TokenService.cs",
+              "ToolTip": "C:\\FileFlowProject\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05DE\u05E2\u05D8 \u05E2\u05D5\u05D1\u05D3 \u05DC\u05D2\u05DE\u05E8\u05D9 API\\FileFlowApi\\FileFlowApi\\service\\services\\TokenService.cs",
+              "RelativeToolTip": "..\\service\\services\\TokenService.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwB4AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T22:17:30.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "C:\\FileFlowProject\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05DE\u05E2\u05D8 \u05E2\u05D5\u05D1\u05D3 \u05DC\u05D2\u05DE\u05E8\u05D9 API\\FileFlowApi\\FileFlowApi\\core\\IServices\\ITokenService.cs",
+              "RelativeDocumentMoniker": "..\\core\\IServices\\ITokenService.cs",
+              "ToolTip": "C:\\FileFlowProject\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05DE\u05E2\u05D8 \u05E2\u05D5\u05D1\u05D3 \u05DC\u05D2\u05DE\u05E8\u05D9 API\\FileFlowApi\\FileFlowApi\\core\\IServices\\ITokenService.cs",
+              "RelativeToolTip": "..\\core\\IServices\\ITokenService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T22:17:26.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DocumentService.cs",
+              "DocumentMoniker": "C:\\FileFlowProject\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05DE\u05E2\u05D8 \u05E2\u05D5\u05D1\u05D3 \u05DC\u05D2\u05DE\u05E8\u05D9 API\\FileFlowApi\\FileFlowApi\\service\\services\\DocumentService.cs",
+              "RelativeDocumentMoniker": "..\\service\\services\\DocumentService.cs",
+              "ToolTip": "C:\\FileFlowProject\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05DE\u05E2\u05D8 \u05E2\u05D5\u05D1\u05D3 \u05DC\u05D2\u05DE\u05E8\u05D9 API\\FileFlowApi\\FileFlowApi\\service\\services\\DocumentService.cs",
+              "RelativeToolTip": "..\\service\\services\\DocumentService.cs",
+              "ViewState": "AQIAAGwAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T22:14:03.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\FileFlowProject\\API\\FileFlowApi\\FileFlowApi\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\FileFlowProject\\API\\FileFlowApi\\FileFlowApi\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-29T09:44:02.978Z",
+              "Title": "DocumentsController.cs",
+              "DocumentMoniker": "C:\\FileFlowProject\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05DE\u05E2\u05D8 \u05E2\u05D5\u05D1\u05D3 \u05DC\u05D2\u05DE\u05E8\u05D9 API\\FileFlowApi\\FileFlowApi\\FileFlowApi\\Controllers\\DocumentsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DocumentsController.cs",
+              "ToolTip": "C:\\FileFlowProject\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05DE\u05E2\u05D8 \u05E2\u05D5\u05D1\u05D3 \u05DC\u05D2\u05DE\u05E8\u05D9 API\\FileFlowApi\\FileFlowApi\\FileFlowApi\\Controllers\\DocumentsController.cs",
+              "RelativeToolTip": "Controllers\\DocumentsController.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T22:13:41.953Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ChatController.cs",
+              "DocumentMoniker": "C:\\FileFlowProject\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05DE\u05E2\u05D8 \u05E2\u05D5\u05D1\u05D3 \u05DC\u05D2\u05DE\u05E8\u05D9 API\\FileFlowApi\\FileFlowApi\\FileFlowApi\\Controllers\\ChatController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ChatController.cs",
+              "ToolTip": "C:\\FileFlowProject\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05DE\u05E2\u05D8 \u05E2\u05D5\u05D1\u05D3 \u05DC\u05D2\u05DE\u05E8\u05D9 API\\FileFlowApi\\FileFlowApi\\FileFlowApi\\Controllers\\ChatController.cs",
+              "RelativeToolTip": "Controllers\\ChatController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAADYAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T22:13:28.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\FileFlowProject\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05DE\u05E2\u05D8 \u05E2\u05D5\u05D1\u05D3 \u05DC\u05D2\u05DE\u05E8\u05D9 API\\FileFlowApi\\FileFlowApi\\FileFlowApi\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\FileFlowProject\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05DE\u05E2\u05D8 \u05E2\u05D5\u05D1\u05D3 \u05DC\u05D2\u05DE\u05E8\u05D9 API\\FileFlowApi\\FileFlowApi\\FileFlowApi\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-29T09:44:02.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\FileFlowProject\\API\\FileFlowApi\\FileFlowApi\\Program.cs",
+              "DocumentMoniker": "C:\\FileFlowProject\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05DE\u05E2\u05D8 \u05E2\u05D5\u05D1\u05D3 \u05DC\u05D2\u05DE\u05E8\u05D9 API\\FileFlowApi\\FileFlowApi\\FileFlowApi\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\FileFlowProject\\API\\FileFlowApi\\FileFlowApi\\Program.cs",
+              "ToolTip": "C:\\FileFlowProject\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05DE\u05E2\u05D8 \u05E2\u05D5\u05D1\u05D3 \u05DC\u05D2\u05DE\u05E8\u05D9 API\\FileFlowApi\\FileFlowApi\\FileFlowApi\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAJIAAAAAAAAAAAAgwKgAAAAAAAAA",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAKgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-29T01:59:58.543Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "FILEFLOWAPI.csproj",
-              "DocumentMoniker": "C:\\FileFlowProject\\API\\FileFlowApi\\FILEFLOWAPI\\FILEFLOWAPI.csproj",
+              "DocumentMoniker": "C:\\FileFlowProject\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05DE\u05E2\u05D8 \u05E2\u05D5\u05D1\u05D3 \u05DC\u05D2\u05DE\u05E8\u05D9 API\\FileFlowApi\\FileFlowApi\\FILEFLOWAPI\\FILEFLOWAPI.csproj",
               "RelativeDocumentMoniker": "FILEFLOWAPI.csproj",
-              "ToolTip": "C:\\FileFlowProject\\API\\FileFlowApi\\FILEFLOWAPI\\FILEFLOWAPI.csproj",
+              "ToolTip": "C:\\FileFlowProject\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05DE\u05E2\u05D8 \u05E2\u05D5\u05D1\u05D3 \u05DC\u05D2\u05DE\u05E8\u05D9 API\\FileFlowApi\\FileFlowApi\\FILEFLOWAPI\\FILEFLOWAPI.csproj",
               "RelativeToolTip": "FILEFLOWAPI.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bvOH4K3/4hs=",
+  "dgSpecHash": "G51ajAXciRY=",
   "success": true,
-  "projectFilePath": "C:\\FileFlowProject\\API\\FileFlowApi\\data\\data.csproj",
+  "projectFilePath": "C:\\FileFlowProject\\פרויקט כמעט עובד לגמרי API\\FileFlowApi\\FileFlowApi\\data\\data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\awssdk.core\\3.7.402.22\\awssdk.core.3.7.402.22.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\awssdk.s3\\3.7.415.21\\awssdk.s3.3.7.415.21.nupkg.sha512",
