@@ -159,8 +159,10 @@ using (var scope = app.Services.CreateScope())
 
 // קביעת תצורת ה-HTTP Pipeline
 app.UseHttpsRedirection();
+
+app.UseCors("AllowReactApp"); 
 app.UseRouting();
-app.UseCors("AllowReactApp");  // הוספת CORS כאן אחרי UseRouting
+
 app.UseAuthentication();
 app.UseAuthorization();
 
