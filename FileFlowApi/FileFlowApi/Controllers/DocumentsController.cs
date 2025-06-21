@@ -61,22 +61,24 @@ namespace FileFlowApi.Controllers
         }
 
 
-        [HttpGet("download-url/{fileName}")]
-        public async Task<IActionResult> GetDownloadUrl(string fileName)
+        [HttpGet("download-url")] 
+            public async Task<IActionResult> GetDownloadUrl([FromQuery] string fileName)
         {
+            if (string.IsNullOrEmpty(fileName))
+            return BadRequest("שם הקובץ חסר");
+        
             var url = await _s3Service.GetDownloadUrlAsync(fileName);
             return Ok(new { downloadUrl = url });
-        }
+            }
 
-        [HttpGet("{id}")]
-        public async Task<IActionResult> GetDocumentById(int id)
-        {
+            [HttpGet("{id}")]
+            public async Task<IActionResult> GetDocumentById(int id)
+            {
             var document = await _documentService.GetDocumentByIdAsync(id);
             if (document == null)
-                return NotFound("המסמך לא נמצא");
-
+            return NotFound("המסמך לא נמצא");
             return Ok(document);
-        }
+       }
 
         [Authorize]
         [HttpGet("user-documents")]
