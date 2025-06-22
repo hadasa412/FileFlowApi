@@ -138,6 +138,32 @@ namespace FileFlowApi.Controllers
                 return BadRequest(ex.Message);
             }
         }
+ [Authorize]
+[HttpGet("download/{id}")]
+public async Task<IActionResult> DownloadDocument(int id)
+{
+    var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+    if (string.IsNullOrEmpty(userIdClaim) || !int.TryParse(userIdClaim, out int userId))
+    {
+        return Unauthorized();
+    }
+
+    try
+    {
+        var document = await _documentService.GetDocumentByIdAsync(id);
+        if (document == null || document.UserId != userId)
+            return NotFound();
+
+        // קבל את הקובץ מ-S3
+        var fileBytes = await _s3Service.GetFileAsync(document.FilePath);
+        
+        return File(fileBytes, document.ContentType, document.Title);
+    }
+    catch (Exception ex)
+    {
+        return BadRequest(ex.Message);
+    }
+}
 
         //[Authorize]
         //[HttpPut("{id}")]
