@@ -37,6 +37,20 @@ namespace FileFlowApi.Services
             return await GetDownloadUrlAsync(fileName);
         }
 
+        public async Task<byte[]> GetFileAsync(string filePath)
+{
+    var request = new GetObjectRequest
+    {
+        BucketName = _bucketName,
+        Key = filePath
+    };
+
+    using var response = await _s3Client.GetObjectAsync(request);
+    using var memoryStream = new MemoryStream();
+    await response.ResponseStream.CopyToAsync(memoryStream);
+    return memoryStream.ToArray();
+}
+
         public async Task<string> GetDownloadUrlAsync(string fileName)
         {
             var request = new GetPreSignedUrlRequest
