@@ -13,7 +13,7 @@ namespace core.IServices
         Task<string> UploadFileAsync(IFormFile file, string fileName);
         Task<string> GetDownloadUrlAsync(string fileName);
         Task<bool> DeleteFileAsync(string fileName);
-
+        Task<byte[]> GetFileAsync(string filePath);
     }
 
 }
