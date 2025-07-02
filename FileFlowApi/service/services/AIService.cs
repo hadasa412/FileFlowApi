@@ -20,12 +20,12 @@ public class AIService : IAIService
     
     public async Task<string> CategorizeDocumentAsync(string fileContent, List<string> userCategories)
     {
-        var apiKey = _configuration["OPENAI_API_KEY"]; 
+        var apiKey = _configuration["OpenAI:ApiKey"]; 
         Console.WriteLine($"API KEY = {!string.IsNullOrEmpty(apiKey)}"); 
         
         if (string.IsNullOrEmpty(apiKey))
         {
-            throw new UnauthorizedAccessException("OPENAI_API_KEY לא נמצא בהגדרות");
+            throw new UnauthorizedAccessException("OpenAI:ApiKey לא נמצא בהגדרות");
         }
         
         var prompt = new
