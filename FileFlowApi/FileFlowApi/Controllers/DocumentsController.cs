@@ -24,51 +24,49 @@ namespace FileFlowApi.Controllers
             _s3Service = s3Service;
         }
 
-        [Authorize]
-        [HttpPost("upload")]
-        [Consumes("multipart/form-data")]
-        [ProducesResponseType(StatusCodes.Status201Created)]
-        [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public async Task<IActionResult> UploadDocument([FromForm] UploadDocumentRequest request)
+       [Authorize]
+[HttpPost("upload")]
+[Consumes("multipart/form-data")]
+[ProducesResponseType(StatusCodes.Status201Created)]
+[ProducesResponseType(StatusCodes.Status400BadRequest)]
+public async Task<IActionResult> UploadDocument([FromForm] UploadDocumentRequest request)
+{
+    var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+    if (string.IsNullOrEmpty(userIdClaim) || !int.TryParse(userIdClaim, out int userId))
+    {
+        return Unauthorized("User ID not found in token.");
+    }
+
+    int? categoryId = null;
+    if (!request.UseAutoTagging)
+    {
+        if (string.IsNullOrEmpty(request.CategoryId) || !int.TryParse(request.CategoryId, out int parsedCategoryId))
         {
-            var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-            // if (string.IsNullOrEmpty(userIdClaim) || !int.TryParse(userIdClaim, out int userId))
-            // {
-            //     return Unauthorized("User ID not found in token.");
-            // }
-            if (string.IsNullOrEmpty(userIdClaim))
-            {
-                return Unauthorized("User ID claim missing.");
-            }
-
-            if (!int.TryParse(userIdClaim, out int userId))
-            {
-                return BadRequest("User ID is not a valid integer.");
-            }
-
-            int? categoryId = null;
-
-            if (!request.UseAutoTagging)
-            {
-                if (string.IsNullOrEmpty(request.CategoryId) || !int.TryParse(request.CategoryId, out int parsedCategoryId))
-                {
-                    return BadRequest("יש לספק מזהה קטגוריה תקין אם לא נבחר מיון אוטומטי.");
-                }
-
-                categoryId = parsedCategoryId;
-            }
-
-            try
-            {
-                await _documentService.UploadDocumentAsync(request.File, categoryId, userId, request.UseAutoTagging);
-                return Ok(new { message = "Document uploaded successfully." });
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(ex.Message);
-            }
+            return BadRequest("יש לספק מזהה קטגוריה תקין אם לא נבחר מיון אוטומטי.");
         }
+        categoryId = parsedCategoryId;
+    }
 
+    try
+    {
+        // הוסף logging
+        _logger.LogInformation($"Starting upload for user {userId}, AutoTagging: {request.UseAutoTagging}, CategoryId: {categoryId}");
+        
+        await _documentService.UploadDocumentAsync(request.File, categoryId, userId, request.UseAutoTagging);
+        
+        return Ok(new { message = "Document uploaded successfully." });
+    }
+    catch (UnauthorizedAccessException ex)
+    {
+        _logger.LogError($"Unauthorized error in AI tagging: {ex.Message}");
+        return Unauthorized("שגיאת הרשאה בשירות הבינה המלאכותית");
+    }
+    catch (Exception ex)
+    {
+        _logger.LogError($"Error uploading document: {ex.Message}");
+        return BadRequest(ex.Message);
+    }
+}
 
         [HttpGet("download-url")] 
             public async Task<IActionResult> GetDownloadUrl([FromQuery] string fileName)
