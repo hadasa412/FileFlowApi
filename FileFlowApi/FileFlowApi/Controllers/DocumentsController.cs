@@ -23,8 +23,7 @@ namespace FileFlowApi.Controllers
             _documentService = documentService;
             _s3Service = s3Service;
         }
-
-       [Authorize]
+[Authorize]
 [HttpPost("upload")]
 [Consumes("multipart/form-data")]
 [ProducesResponseType(StatusCodes.Status201Created)]
@@ -49,25 +48,22 @@ public async Task<IActionResult> UploadDocument([FromForm] UploadDocumentRequest
 
     try
     {
-        // הוסף logging
-        _logger.LogInformation($"Starting upload for user {userId}, AutoTagging: {request.UseAutoTagging}, CategoryId: {categoryId}");
-        
         await _documentService.UploadDocumentAsync(request.File, categoryId, userId, request.UseAutoTagging);
-        
         return Ok(new { message = "Document uploaded successfully." });
     }
     catch (UnauthorizedAccessException ex)
     {
-        _logger.LogError($"Unauthorized error in AI tagging: {ex.Message}");
-        return Unauthorized("שגיאת הרשאה בשירות הבינה המלאכותית");
+        return Unauthorized($"שגיאת הרשאה בשירות הבינה המלאכותית: {ex.Message}");
+    }
+    catch (HttpRequestException ex) when (ex.Message.Contains("401"))
+    {
+        return Unauthorized("שגיאת הרשאה בשירות AI - בדוק את מפתחות ה-API");
     }
     catch (Exception ex)
     {
-        _logger.LogError($"Error uploading document: {ex.Message}");
         return BadRequest(ex.Message);
     }
 }
-
         [HttpGet("download-url")] 
             public async Task<IActionResult> GetDownloadUrl([FromQuery] string fileName)
         {
