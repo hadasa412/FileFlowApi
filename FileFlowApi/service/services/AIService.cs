@@ -20,7 +20,7 @@ public class AIService : IAIService
     
     public async Task<string> CategorizeDocumentAsync(string fileContent, List<string> userCategories)
     {
-        var apiKey = _configuration["OpenAI:ApiKey"]; 
+        var apiKey = _configuration["OpenAI:ApiKey"]?.Trim(); 
         Console.WriteLine($"API KEY = {!string.IsNullOrEmpty(apiKey)}"); 
         
         if (string.IsNullOrEmpty(apiKey))
