@@ -32,9 +32,18 @@ namespace FileFlowApi.Controllers
         public async Task<IActionResult> UploadDocument([FromForm] UploadDocumentRequest request)
         {
             var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-            if (string.IsNullOrEmpty(userIdClaim) || !int.TryParse(userIdClaim, out int userId))
+            // if (string.IsNullOrEmpty(userIdClaim) || !int.TryParse(userIdClaim, out int userId))
+            // {
+            //     return Unauthorized("User ID not found in token.");
+            // }
+            if (string.IsNullOrEmpty(userIdClaim))
             {
-                return Unauthorized("User ID not found in token.");
+                return Unauthorized("User ID claim missing.");
+            }
+
+            if (!int.TryParse(userIdClaim, out int userId))
+            {
+                return BadRequest("User ID is not a valid integer.");
             }
 
             int? categoryId = null;
