@@ -12,7 +12,7 @@ public class AIService : IAIService
     private readonly HttpClient _httpClient;
     private readonly IConfiguration _configuration;
     
-    public AIService(IConfiguration configuration, HttpClient httpClient) // שנה גם את זה
+    public AIService(IConfiguration configuration, HttpClient httpClient) 
     {
         _httpClient = httpClient;
         _configuration = configuration;
@@ -20,8 +20,8 @@ public class AIService : IAIService
     
     public async Task<string> CategorizeDocumentAsync(string fileContent, List<string> userCategories)
     {
-        var apiKey = _configuration["OPENAI_API_KEY"]; // ✅ תוקן!
-        Console.WriteLine($"API KEY = {!string.IsNullOrEmpty(apiKey)}"); // לא להדפיס את המפתח האמיתי!
+        var apiKey = _configuration["OPENAI_API_KEY"]; 
+        Console.WriteLine($"API KEY = {!string.IsNullOrEmpty(apiKey)}"); 
         
         if (string.IsNullOrEmpty(apiKey))
         {
